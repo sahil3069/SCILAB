@@ -1,4 +1,4 @@
-function []=gauss_el()
+function []=gauss_elimination()
     a=evstr(x_matrix('enter a  3x3 matrix ',rand(3,3)))
     b=evstr(x_matrix('enter a  3x1 matrix ',rand(3,1)))
     ab=[a b]
@@ -26,5 +26,5 @@ function []=gauss_el()
     disp(x)
 endfunction
 
-gauss_el()
+gauss_elimination()
 
